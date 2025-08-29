@@ -1,11 +1,6 @@
-
-```markdown
-# Update Operation
-
-```python
 from bookshelf.models import Book
 
-# Assume 'book' is the book we created
+# Retrieve the book
 book = Book.objects.get(title="1984")
 
 # Update the title
