@@ -1,8 +1,4 @@
 
----
-
-### **2️⃣ retrieve.md**
-
 ```markdown
 # Retrieve Operation
 

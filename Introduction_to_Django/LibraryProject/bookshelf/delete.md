@@ -1,8 +1,4 @@
 
----
-
-### **4️⃣ delete.md**
-
 ```markdown
 # Delete Operation
 
