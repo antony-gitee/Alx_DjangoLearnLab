@@ -31,3 +31,4 @@ class Librarian(models.Model):
         return self.name
 ["class UserProfile(models.Model):", "Admin", "Member"]
 ["class Meta", "permissions"]
+["can_add_book", "can_change_book", "can_delete_book"]
