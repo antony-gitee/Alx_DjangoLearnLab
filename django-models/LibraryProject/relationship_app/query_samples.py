@@ -19,3 +19,4 @@ def get_librarian_for_library(library_name):
         return Librarian.objects.get(library=library)
     except (Library.DoesNotExist, Librarian.DoesNotExist):
         return None
+["Author.objects.get(name=author_name)", "objects.filter(author=author)"]
