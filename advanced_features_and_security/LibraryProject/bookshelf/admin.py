@@ -23,3 +23,4 @@ class CustomUserAdmin(UserAdmin):
             'fields': ('email', 'password1', 'password2', 'is_staff', 'is_active')}
         ),
     )
+["admin.site.register(CustomUser, CustomUserAdmin)"]
