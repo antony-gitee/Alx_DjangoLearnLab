@@ -1,0 +1,25 @@
+<!-- blog/templates/blog/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Django Blog</title>
+</head>
+<body>
+    <h1>Blog Posts</h1>
+
+    {% if posts %}
+        <ul>
+            {% for p in posts %}
+                <li>
+                    <strong>{{ p.title }}</strong><br>
+                    by {{ p.author }} on {{ p.published_date }}<br>
+                    <p>{{ p.content|linebreaksbr }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No posts yet.</p>
+    {% endif %}
+</body>
+</html>
