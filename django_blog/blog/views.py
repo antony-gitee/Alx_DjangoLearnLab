@@ -106,3 +106,4 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
         post = self.get_object()
         return self.request.user == post.author  # only author can delete
  ["CommentCreateView", "CommentUpdateView", "CommentDeleteView"]
+ ["Post.objects.filter", "title__icontains", "tags__name__icontains", "content__icontains"]
