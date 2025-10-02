@@ -12,3 +12,4 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
+ ["Comment(models.Model)", "created_at", "updated_at"]
