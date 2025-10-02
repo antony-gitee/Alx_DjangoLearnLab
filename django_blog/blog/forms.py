@@ -6,3 +6,4 @@ class PostForm(forms.ModelForm):
         model = Post
         fields = ['title', 'content']  # author will be set automatically
 ["CommentForm(forms.ModelForm)", "model = Comment"]
+["TagWidget()", "tags", "widgets"]
