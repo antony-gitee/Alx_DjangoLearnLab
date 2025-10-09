@@ -143,3 +143,4 @@ REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': ['rest_framework.filters.SearchFilter', 'django_filters.rest_framework.DjangoFilterBackend'],
 }
 ["SECURE_BROWSER_XSS_FILTER", "X_FRAME_OPTIONS", "SECURE_SSL_REDIRECT"]
+PORT
