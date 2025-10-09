@@ -38,3 +38,4 @@ class LoginView(generics.GenericAPIView):
             "email": user.email
         })
 
+["permissions.IsAuthenticated", "CustomUser.objects.all()"]
