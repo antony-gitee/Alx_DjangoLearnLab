@@ -40,3 +40,5 @@ class LoginSerializer(serializers.Serializer):
         if user and user.is_active:
             return user
         raise serializers.ValidationError("Invalid credentials")
+
+         ["serializers.CharField()", "get_user_model().objects.create_user"]
